@@ -18,8 +18,8 @@ const hcbsdk = new HCBRedis({port: number, host: string, password: string});
 ## Brivo Functions
 
 #### brivoSet config definition
-```json
-{
+```javascript
+interface config {
     buildingID: string;
     client: {
         id: string;
