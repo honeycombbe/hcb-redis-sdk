@@ -9,8 +9,7 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json"
   },
-  "typings": "./lib/index.d.ts",
-  "author": "",
+  "author": "M. Nick",
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.0.5",
@@ -23,5 +22,9 @@
     "aws-sdk": "^2.741.0",
     "ioredis": "^4.17.3",
     "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honeycombbe/hcb-redis-sdk.git"
   }
 }
