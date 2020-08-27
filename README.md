@@ -36,8 +36,8 @@ hcbsdk.brivoSet(config);
 ```
 
 #### brivoGet response definition
-```json
-{
+```javascript
+interface response {
     error: any;
     res: {
         buildingID: string;
